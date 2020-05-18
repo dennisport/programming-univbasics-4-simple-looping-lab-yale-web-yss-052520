@@ -16,7 +16,7 @@ while count < 5 do
   message = "Hello Moon."
   puts message
   count += 1
-elsif count >= 5 && < limit do
+elsif count >= 5 do
   message = "Hello Red Balloon"
   puts message
   count += 1
