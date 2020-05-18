@@ -10,7 +10,7 @@ end
 end
 
 def loop_message_n_times(message, limit)
-  limit = 5
+  limit = 10
   count = 0
 while count < limit do 
   message = "Hello Moon."
