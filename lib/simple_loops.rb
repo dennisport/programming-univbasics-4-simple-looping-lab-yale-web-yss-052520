@@ -10,13 +10,13 @@ end
 end
 
 def loop_message_n_times(message, limit)
-  limit = 10
+  limit = 15
   count = 0
-while count < limit do 
+while count < 5 do 
   message = "Hello Moon."
   puts message
   count += 1
-elsif count >= limit do
+elsif (count >= 5 && < limit) do
   message = "Hello Red Balloon"
   puts message
   count += 1
