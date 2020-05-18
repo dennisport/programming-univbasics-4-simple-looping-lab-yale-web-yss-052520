@@ -10,10 +10,15 @@ end
 end
 
 def loop_message_n_times(message, limit)
+  limit = 5
   count = 0
 while count < limit do 
+  message = "Hello Moon."
   puts message
   count += 1
+elsif count >= limit do
+  message = ""
+  puts message
 end
 end
 
